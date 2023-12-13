@@ -23,5 +23,5 @@ func main() {
 	router.POST("/set", HandleSet(kvStore))
 	router.GET("/get", HandleGet(kvStore))
 
-	router.Run("localhost:8000")
+	router.Run("localhost:8001")
 }
